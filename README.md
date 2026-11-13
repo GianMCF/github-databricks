@@ -169,7 +169,6 @@ proporción importante de los registros se concentra en determinadas
 naturalezas e instituciones. Estos hallazgos permiten formular hipótesis
 sobre el comportamiento futuro y definir qué indicadores conviene
 monitorear.
-
 La incorporación de estas dimensiones en STASYS facilitaría el
 seguimiento de las solicitudes y la identificación de variaciones
 relevantes. Sin embargo, las proyecciones deberán actualizarse conforme
