@@ -25,6 +25,15 @@ jobs:
       # Install Databricks CLI
       - name: Setup Databricks CLI
         uses: databricks/setup-cli@main
+     
+      # Verify Databricks authentication
+      - name: Verify Databricks authentication
+        run: |
+          echo "Checking Databricks authentication..."
+          databricks auth describe
+
+          echo "Checking authenticated user..."
+          databricks current-user me
 
       # Update Databricks Git folder
       - name: Update Databricks Git folder
